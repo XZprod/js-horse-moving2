@@ -1,0 +1,62 @@
+body {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    border: 1px solid gray;
+    margin: 10px 0;
+}
+
+.letters {
+    display: flex;
+    width: 80%;
+    margin: 0 50px;
+}
+
+.cell {
+    width: 12.5%;
+    height: 12.5%;
+    float: left;
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.label {
+    text-align: center;
+}
+
+.numbers {
+    float: left;
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.numbers span {
+}
+
+.container {
+    display: flex;
+}

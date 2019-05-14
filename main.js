@@ -81,7 +81,7 @@ window.addEventListener('click', (e) => {
   const el = e.target;
   const classes = [...el.classList];
   if (classes.indexOf('cell') !== -1) {
-    if(active) {
+    if (active) {
       active.classList.remove('blue');
     }
     active = el;
